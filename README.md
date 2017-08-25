@@ -1,9 +1,9 @@
 # OrangeHRM OpenLdap docker image
 ## this image is based on osixia/openldap image.
 
-###Quick Start
+## Quick Start
 
-Run OpenLDAP docker image:
+### Run OpenLDAP docker image:
 
 docker run --name my-openldap-container --detach thulana/openldap:latest
 This start a new container with OpenLDAP running inside. Let's make the first search in our LDAP container:
