@@ -37,8 +37,8 @@ services:
       - /etc/ldap/slapd.d
       - /container/service/slapd/assets/certs/
     ports:
-      - "389:389"
-      - "636:636"
+      - "700:389"
+      - "701:636"
     domainname: "example.org" # important: same as hostname
     hostname: "example.org"
   phpldapadmin:
