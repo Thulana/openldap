@@ -1,7 +1,7 @@
 # OrangeHRM OpenLdap docker image
 ## this image is based on osixia/openldap image.
 
-Quick Start
+###Quick Start
 
 Run OpenLDAP docker image:
 
@@ -28,7 +28,7 @@ If you have the following error, OpenLDAP is not started yet, maybe you are too 
 
 	ldap_sasl_bind(SIMPLE): Can't contact LDAP server (-1)
 
-#Environment Variables
+### Environment Variables
 
 Environment variables defaults are set in image/environment/default.yaml and image/environment/default.startup.yaml.
 
@@ -118,9 +118,9 @@ LDAP_REMOVE_CONFIG_AFTER_SETUP: delete config folder after setup. Defaults to tr
 
 LDAP_SSL_HELPER_PREFIX: ssl-helper environment variables prefix. Defaults to ldap, ssl-helper first search config from LDAP_SSL_HELPER_* variables, before SSL_HELPER_* variables.
 
-#Beginner Guide
+## Beginner Guide
 
-##Create new ldap server
+### Create new ldap server
 
 This is the default behavior when you run this image. It will create an empty ldap for the company Example Inc. and the domain example.org.
 
@@ -139,7 +139,7 @@ Edit your server configuration
 
 Do not edit slapd.conf it's not used. To modify your server configuration use ldap utils: ldapmodify / ldapadd / ldapdelete
 
-##Seed ldap database with ldif
+## Seed ldap database with ldif
 
 This image can load ldif files at startup with either ldapadd or ldapmodify. Mount .ldif in /container/service/slapd/assets/config/bootstrap/ldif directory if you want to overwrite image default boostrap ldif files or in /container/service/slapd/assets/config/bootstrap/ldif/custom (recommended) to extend image config.
 
