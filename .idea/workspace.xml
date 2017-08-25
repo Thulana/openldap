@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2f08473-c0ef-4979-9fc6-7e359ddfaf45" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,12 +53,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="36">
-                <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <first_editor relative-caret-position="-898">
+                <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -67,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="281">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -132,10 +131,10 @@
         <option value="$PROJECT_DIR$/docker-image/environment/my-env.startup.yaml" />
         <option value="$PROJECT_DIR$/docker-image/dockerfile" />
         <option value="$PROJECT_DIR$/tests/functional/WebContainerCest.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/unit/WebContainerCest.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -249,12 +248,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503550008737</updated>
       <workItem from="1503550010000" duration="11609000" />
-      <workItem from="1503641853285" duration="12902000" />
+      <workItem from="1503641853285" duration="13951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24511000" />
+    <option name="totallyTimeSpent" value="25560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -486,17 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -523,9 +511,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="281">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-898">
+            <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
