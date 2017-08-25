@@ -14,6 +14,7 @@ class WebContainerCest
     public function checkForOpenLdapServer(UnitTester $I){
         $I->wantTo("verify ldap server is running");
         $I->runShellCommand("docker ps");
+        $I->seeInShellOutput("phpldapadmin");
         $I->seeInShellOutput("openldap");
     }
 
