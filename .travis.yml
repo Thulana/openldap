@@ -39,3 +39,5 @@ after_success:
   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push $REPO:$TAG
 
+after_failure:
+  - docker logs openldap
