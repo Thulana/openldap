@@ -5,9 +5,9 @@ services:
     container_name: openldap
     environment:
       LDAP_LOG_LEVEL: "256"
-      LDAP_ORGANISATION: "orangehrm Inc."
+      LDAP_ORGANISATION: "Orangehrm Inc."
       LDAP_DOMAIN: "orangehrm.com"
-      LDAP_BASE_DN: "dc=orangehrm,dc=com"
+      LDAP_BASE_DN: ""
       LDAP_ADMIN_PASSWORD: "admin"
       LDAP_CONFIG_PASSWORD: "config"
       LDAP_READONLY_USER: "false"
@@ -39,8 +39,8 @@ services:
     ports:
       - "389:389"
       - "636:636"
-    domainname: "orangehrm.com" # important: same as hostname
-    hostname: "orangehrm.com"
+    domainname: "example.org" # important: same as hostname
+    hostname: "example.org"
   phpldapadmin:
     image: osixia/phpldapadmin:latest
     container_name: phpldapadmin

@@ -12,11 +12,11 @@ class WebContainerCest
     }
 
 
-    public function ldapadminconnectionTest(FunctionalTester $I){
-        $I->wantTo("verify ldapadmin container is linked with ldap server properly");
-        $I->runShellCommand("docker exec openldap ping phpldapadmin -c 2");
-        $I->seeInShellOutput('2 packets transmitted, 2 received');
-    }
+//    public function ldapadminconnectionTest(FunctionalTester $I){
+//        $I->wantTo("verify ldapadmin container is linked with ldap server properly");
+//        $I->runShellCommand("docker exec openldap ping phpldapadmin -c 2");
+//        $I->seeInShellOutput('2 packets transmitted, 2 received');
+//    }
 
 
 
