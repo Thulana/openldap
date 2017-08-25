@@ -12,11 +12,11 @@ class WebContainerCest
     }
 
 
-//    public function mysqlServerConnectionTest(FunctionalTester $I){
-//        $I->wantTo("verify mysql container is linked with ubuntu container properly");
-//        $I->runShellCommand("docker exec phantom_web ping db -c 2");
-//        $I->seeInShellOutput('2 packets transmitted, 2 received');
-//    }
+    public function ldapadminconnectionTest(FunctionalTester $I){
+        $I->wantTo("verify ldapadmin container is linked with ldap server properly");
+        $I->runShellCommand("docker exec openldap ping phpldapadmin -c 2");
+        $I->seeInShellOutput('2 packets transmitted, 2 received');
+    }
 
 
 
