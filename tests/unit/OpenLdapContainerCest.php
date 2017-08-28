@@ -21,6 +21,7 @@ class OpenLdapContainerCest
 
     public function checkSlapdService(UnitTester $I){
         $I->wantTo("verify slapd is configured in the container");
+        $I->runShellCommand("docker exec openldap service slapd restart");
         $I->runShellCommand("docker exec openldap service slapd status");
         $I->seeInShellOutput("slapd is running.");
     }
