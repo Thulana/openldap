@@ -1,12 +1,10 @@
 language: php
 sudo: required
-
+dist: trusty
 env:
   global:
   - REPO=thulana/openldap
   - TAG=latest
-
-dist: trusty
 
 services:
   - docker
@@ -24,9 +22,8 @@ before_install:
   - docker build -t $REPO:$TAG docker-image
 
 install:
-  - docker-compose up -d
-  - sleep 5
   - composer install
+  - docker-compose up -d
   - docker ps
 
 script:
