@@ -6,10 +6,8 @@ env:
   - REPO=thulana/openldap
   - TAG=latest
 
-matrix:
-    include:
-        - os: linux
-          dist: trusty          
+dist: trusty
+
 services:
   - docker
 

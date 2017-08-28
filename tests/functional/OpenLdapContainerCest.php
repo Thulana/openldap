@@ -1,7 +1,7 @@
 <?php
 
 
-class WebContainerCest
+class OpenLdapContainerCest
 {
     public function _before(FunctionalTester $I)
     {

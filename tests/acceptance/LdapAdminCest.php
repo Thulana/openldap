@@ -1,7 +1,7 @@
 <?php
 
 
-class UATEnvironmentCest
+class LdapAdminCest
 {
 
     public function checkLoginToLDAPFromLdapMyAdmin(AcceptanceTester $I){
